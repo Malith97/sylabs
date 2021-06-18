@@ -18,7 +18,7 @@ const OurTeam = () => {
                                     <img src={val.teamPicture} alt=" random imgee" className="w-full object-cover object-center rounded-lg shadow-md" />
                                     <div className="relative px-4 -mt-16  ">
                                         <div className="bg-white p-6 rounded-lg xs:justify-center xs:text-center shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                                            <h4 className="mt-1 text-l md:flex md:justify-center lg:text-center font-bold leading-tight text-blue-900 lg:text-xl xs:text-sm">{val.teamName}</h4>
+                                            <h4 className="mt-1 text-l md:flex md:justify-center lg:text-center font-bold leading-tight text-blue-900 lg:text-xl xs:text-sm md:text-xl">{val.teamName}</h4>
                                             <div className="mt-4">
                                                 <span className="xs:flex xs:justify-center sm:justify-center xs:text-center lg:text-center xs:text-xs text-gray-600">{val.teamPosition}</span>
                                             </div>

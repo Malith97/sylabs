@@ -5,7 +5,7 @@ const Process = () => {
     return (
         <>
             <div className="container">
-                <h1 className="text-center md:text-5xl sm:text-3xl xs:text-4xl lg:text-6xl font-black text-blue-900 lg:px-48 md:px-12 font-sans xs:mt-20">Our Process</h1>
+                <h1 className="text-center md:text-3xl sm:text-3xl xs:text-4xl lg:text-6xl font-black text-blue-900 lg:px-48 md:px-12 font-sans xs:mt-20">Our Process</h1>
                 <p className="text-center text-black font-medium lg:my-4 xs:mx-12 xs:my-4 font-sans">Develop software that gives you a competitive edge using the latest technologies</p>
                 <div className="grid lg:grid-cols-3 sm:grid-cols-3 lg:gap-4 sm:gap-3 xs:grid-cols-3 md:grid-cols-3 md:gap-4 xs:gap-4">
                     {processcards.map((val, key) => {

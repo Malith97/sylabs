@@ -6,8 +6,8 @@ const Technologies = () => {
     return (
         <>
             <div className="container">
-                <h1 className="text-center text-4xl font-black text-black lg:px-48 md:px-12 lg:mt-20 font-sans">Technologies we are familiar with</h1>
-                <div class="grid grid-flow-col grid-rows-2 grid-cols-7 gap-4">
+                <h1 className="xs:hidden md:block text-center text-4xl font-black text-sylab-blue lg:px-48 md:px-12 lg:mt-20 font-sans md:my-14">Technologies we are familiar with</h1>
+                <div class="md:mt-6 grid lg:grid-flow-col md:grid-flow-col sm:grid-flow-col md:grid-rows-2 lg:grid-rows-2 sm:grid-rows-3 md:grid-cols-7 lg:grid-cols-7 sm:grid-cols-5 md:gap-8 sm:gap-8 lg:gap-4">
                     {technologyIcons.map((val, key) => {
                         return (
                             <div class={val.animate}>

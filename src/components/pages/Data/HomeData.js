@@ -88,7 +88,7 @@ export const homeObjFour = {
     isDesc: true,
     topicIcon: <img src={MiniMe} />,
     topicHead: 'Malith Ileperuma',
-    topicDesc: 'Co-Founder',
+    topicDesc: 'Co-Founder & CEO',
     buttonLabel: 'Learn More',
     imgStart: '',
     img: img5,
@@ -317,58 +317,58 @@ export const ourteamDetails = [
 export const technologyIcons = [
     {
         icon: techicon1,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 -rotate-6 translate-x-2 translate-y-12",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-6 lg:translate-x-2 lg:translate-y-12",
     },
     {
         icon: techicon2,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 rotate-6 translate-x-2 translate-y-30",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-6 lg:translate-x-2 lg:translate-y-30",
     },
     {
         icon: techicon3,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 rotate-12 translate-x-1 translate-y-30 animate-pulse",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-1 lg:translate-y-30 animate-pulse",
     },
     {
         icon: techicon4,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 -rotate-12 translate-x-1 -translate-y-8",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:-translate-y-8",
     },
     {
         icon: techicon5,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 rotate-12 translate-x-1 translate-y-12",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-1 lg:translate-y-12",
     },
     {
         icon: techicon6,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 -rotate-12 translate-x-1 translate-y-30 animate-pulse",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30 animate-pulse",
     },
     {
         icon: techicon7,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 -rotate-12 translate-x-1 translate-y-30",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30",
     },
     {
         icon: techicon8,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 rotate-12 translate-x-1 translate-y-30",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-1 lg:translate-y-30",
     },
     {
         icon: techicon1,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 rotate-12 translate-x-2 translate-y-12",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-2 lg:translate-y-12",
     },
     {
         icon: techicon1,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 -rotate-12 translate-x-1 translate-y-30 animate-pulse",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30 animate-pulse",
     },
     {
         icon: techicon1,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 -rotate-12 translate-x-1 translate-y-30",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30",
     },
     {
         icon: techicon1,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 rotate-12 translate-x-1 translate-y-30",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-1 lg:translate-y-30",
     },
     {
         icon: techicon1,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 rotate-12 translate-x-2 translate-y-12 animate-pulse",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-2 lg:translate-y-12 animate-pulse",
     },
     {
         icon: techicon1,
-        animate: "rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto transform scale-75 -rotate-12 translate-x-1 translate-y-30",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30",
     }
 ]
