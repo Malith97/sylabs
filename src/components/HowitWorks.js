@@ -12,7 +12,7 @@ const HowitWorks = () => {
                     <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
                         <div class="flex flex-row-reverse md:contents">
                             <div class="bg-blue-900 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                                <h3 class="font-semibold text-lg mb-1 font-sans xs:text-md">Discovery & Analysis</h3>
+                                <h3 class="font-semibold lg:text-xl mb-4 font-sans xs:text-sm">Discovery & Analysis</h3>
                                 <p class="leading-tight text-justify font-sans md:text-xs xs:text-xs">
                                     At the first stage we gather all the necessary details about your idea and define the ultimate development stack
                                 </p>
@@ -36,7 +36,7 @@ const HowitWorks = () => {
                             <div
                                 class="bg-blue-900 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
                             >
-                                <h3 class="font-semibold text-lg mb-1 font-sans xs:text-md">Planning & Planning</h3>
+                                <h3 class="font-semibold lg:text-xl mb-4 font-sans xs:text-sm">Planning & Designing</h3>
                                 <p class="leading-tight text-justify font-sans md:text-xs xs:text-xs">
                                     At the second stage we focus on organizing the overall structure and behaviours of the components to a gathered to a workable plan
                                 </p>
@@ -46,7 +46,7 @@ const HowitWorks = () => {
                             <div
                                 class="bg-blue-900 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
                             >
-                                <h3 class="font-semibold text-lg mb-1 font-sans xs:text-md">Development & Testing</h3>
+                                <h3 class="font-semibold lg:text-xl mb-4 font-sans xs:text-sm">Development & Testing</h3>
                                 <p class="leading-tight text-justify font-sans md:text-xs xs:text-xs">
                                     At the third stage, we implement your working prototype ensure that it perform without any bugs or errors
                                 </p>
@@ -70,7 +70,7 @@ const HowitWorks = () => {
                                 ></div>
                             </div>
                             <div class="bg-blue-900 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto ml-auto shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                                <h3 class="font-semibold text-lg mb-1 font-sans xs:text-md">Optimize & Maintain</h3>
+                                <h3 class="font-semibold lg:text-xl mb-4 font-sans xs:text-sm">Optimize & Maintain</h3>
                                 <p class="leading-tight text-justify font-sans md:text-xs xs:text-xs">
                                     At the fourth stage, we optimize your working prototype ensure that it gives you value for your money and performing at peak level
                                 </p>

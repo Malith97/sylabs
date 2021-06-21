@@ -1,9 +1,13 @@
 import './App.css';
+import { useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer';
@@ -14,6 +18,9 @@ import Services from './components/pages/ServicesPage/Services'
 import Contact from './components/pages/ContactPage/Contact'
 
 const App = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Router>
       <Navbar />

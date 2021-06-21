@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Header from '../../Header'
-import Divider from '../../Divider'
 
 import ContactForm from '../../ContactForm'
 

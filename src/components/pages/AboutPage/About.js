@@ -4,6 +4,7 @@ import Header from '../../Header'
 import HeroSection from '../../HeroSection'
 import Team from '../../OurTeam'
 import Process from '../../Process'
+import Divider from '../../Divider'
 
 import { aboutObjOne, aboutObjTwo, aboutObjThree } from '../Data/HomeData'
 
@@ -14,6 +15,7 @@ const About = () => {
             <HeroSection {...aboutObjOne} />
             <Process />
             <HeroSection {...aboutObjTwo} />
+            <Divider />
             <Team />
             <HeroSection {...aboutObjThree} />
         </>

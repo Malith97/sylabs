@@ -1,5 +1,6 @@
 import img1 from '../../../images/website_traffic.png'
 import img2 from '../../../images/work2.png'
+import img3 from '../../../images/illustration-16.png'
 import img4 from '../../../images/home2_img_06.png'
 import img5 from '../../../images/about_us_img_01.png'
 import img6 from '../../../images/What-We-Offer.png'
@@ -20,16 +21,22 @@ import techicon5 from '../../../images/mongodb-2-1175137.png'
 import techicon6 from '../../../images/google_firebase-2-512.png'
 import techicon7 from '../../../images/python.png'
 import techicon8 from '../../../images/wordpress.png'
+import techicon9 from '../../../images/android.png'
+import techicon10 from '../../../images/java.png'
+import techicon11 from '../../../images/google-cloud.png'
+import techicon12 from '../../../images/docker.png'
+import techicon13 from '../../../images/php.png'
+import techicon14 from '../../../images/flutter.png'
 
 
-import { FaEye, FaConnectdevelop, FaSearchengin, FaBasketballBall } from "react-icons/fa";
+import { FaEye, FaSearchengin, FaBasketballBall } from "react-icons/fa";
 import { FiCodesandbox } from "react-icons/fi";
 import { GiBullseye } from "react-icons/gi";
 import { BiCode } from "react-icons/bi";
 import { VscCircuitBoard } from "react-icons/vsc";
 import { AiOutlineBuild, AiFillSliders } from "react-icons/ai";
 import { MdWeb, MdDeveloperMode } from "react-icons/md";
-import { BsFillLightningFill, BsFillGrid1X2Fill } from "react-icons/bs";
+import { BsFillLightningFill } from "react-icons/bs";
 
 export const homeObjOne = {
     lightBg: false,
@@ -73,7 +80,7 @@ export const homeObjThree = {
     isDesc: true,
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: img2,
+    img: img3,
     alt: 'Work Together'
 }
 
@@ -86,7 +93,7 @@ export const homeObjFour = {
     description: 'Sy Labs is a digital product agency in Colombo, Sri Lanka. We solve problems to serve people. Our work is designed to simplify and engineered to endure. Our team can produce amazing web experiences, beginning with deep market research, practical strategies, and professional execution.',
     isBtn: false,
     isDesc: true,
-    topicIcon: <img src={MiniMe} />,
+    topicIcon: <img src={MiniMe} alt="Malith Ileperuma" />,
     topicHead: 'Malith Ileperuma',
     topicDesc: 'Co-Founder & CEO',
     buttonLabel: 'Learn More',
@@ -348,27 +355,27 @@ export const technologyIcons = [
         animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-1 lg:translate-y-30",
     },
     {
-        icon: techicon1,
+        icon: techicon9,
         animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-2 lg:translate-y-12",
     },
     {
-        icon: techicon1,
+        icon: techicon10,
         animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30 animate-pulse",
     },
     {
-        icon: techicon1,
+        icon: techicon11,
         animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30",
     },
     {
-        icon: techicon1,
+        icon: techicon12,
         animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-1 lg:translate-y-30",
     },
     {
-        icon: techicon1,
+        icon: techicon13,
         animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-2 lg:translate-y-12 animate-pulse",
     },
     {
-        icon: techicon1,
+        icon: techicon14,
         animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30",
     }
 ]
