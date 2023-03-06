@@ -10,8 +10,14 @@ import Sunny from '../../../images/Sunny_01.jpg'
 import Ishanka from '../../../images/Ishanka_001.jpg'
 import Malith from '../../../images/Malith_01.jpg'
 import Chanakya from '../../../images/Chanakya_01.jpg'
+import Matheesha from '../../../images/matheesha_01.png'
 
 import MiniMe from '../../../images/minime.png'
+
+import Australia from '../../../images/Flag-Australia.webp'
+import Canada from '../../../images/Flag-Canada.webp'
+import NewZealand from '../../../images/Flag-New-Zealand.webp'
+import UK from '../../../images/Flag-United-Kingdom.webp'
 
 import techicon1 from '../../../images/physics.png'
 import techicon2 from '../../../images/node-js-1174925.png'
@@ -27,6 +33,10 @@ import techicon11 from '../../../images/google-cloud.png'
 import techicon12 from '../../../images/docker.png'
 import techicon13 from '../../../images/php.png'
 import techicon14 from '../../../images/flutter.png'
+import techicon15 from '../../../images/aws.png'
+import techicon16 from '../../../images/jenkins.png'
+import techicon17 from '../../../images/kubernetes.png'
+import techicon18 from '../../../images/ansible.png'
 
 
 import { FaEye, FaSearchengin, FaBasketballBall } from "react-icons/fa";
@@ -186,6 +196,25 @@ export const serviceObjTwo = {
     alt: 'Work Together'
 }
 
+export const countryList = [
+    {
+        countryName: "Canada",
+        flag: Canada
+    },
+    {
+        countryName: "Australia",
+        flag: Australia
+    },
+    {
+        countryName: "United Kingdom",
+        flag: UK
+    },
+    {
+        countryName: "New Zealand",
+        flag: NewZealand
+    }
+]
+
 export const servicecards = [
     {
         cardIcon: <FaSearchengin className="text-blue-900 text-4xl font-bold my-4" />,
@@ -270,11 +299,11 @@ export const ourteamDetails = [
     {
         teamPicture: Sunny,
         teamName: "Sandeepa Viduranga",
-        teamPosition: "Wordpress Developer & UI UX Designer",
+        teamPosition: "Full-Stack Developer & UI UX Designer",
         socialMedia: [{
-            facebook: "www.facebook.com",
-            github: "www.github.com",
-            linkedin: "www.linkedin.com",
+            facebook: "https://web.facebook.com/sandeepa.viduranga.353",
+            github: "https://github.com/SandeepaViduranga",
+            linkedin: "https://www.linkedin.com/in/sandeepa-viduranga-22620316b/",
             dribble: "www.dribble.com",
             stackoverflow: "www.stackoverflow"
 
@@ -285,9 +314,9 @@ export const ourteamDetails = [
         teamName: "Ishanka Denipitiya",
         teamPosition: "Backend Developer & System Support",
         socialMedia: [{
-            facebook: "www.facebook.com",
-            github: "www.github.com",
-            linkedin: "www.linkedin.com",
+            facebook: "https://web.facebook.com/ishanka.sd",
+            github: "https://github.com/IshankaDenipitiya",
+            linkedin: "https://www.linkedin.com/in/ishanka-denipitiya-336116126/",
             dribble: "www.dribble.com",
             stackoverflow: "www.stackoverflow"
 
@@ -296,20 +325,33 @@ export const ourteamDetails = [
     {
         teamPicture: Malith,
         teamName: "Malith Ileperuma",
-        teamPosition: "Full Stack Developer & UI UX Designer",
+        teamPosition: "DevOps Engineer & Full-Stack Developer",
         socialMedia: [{
             facebook: "www.facebook.com",
-            github: "www.github.com",
-            linkedin: "www.linkedin.com",
-            dribble: "www.dribble.com",
-            stackoverflow: "www.stackoverflow"
+            github: "https://github.com/Malith97",
+            linkedin: "https://www.linkedin.com/in/malith-ileperuma-8a6a97167/",
+            dribble: "https://dribbble.com/Malith97",
+            stackoverflow: "https://stackoverflow.com/users/10895727/malith-ileperuma"
 
         }]
     },
     {
         teamPicture: Chanakya,
         teamName: "Chanakya Bandara",
-        teamPosition: "Database Design & Backend Developer",
+        teamPosition: "Database Admin & Backend Developer",
+        socialMedia: [{
+            facebook: "https://web.facebook.com/chanakya.bandara.96",
+            github: "https://github.com/ChanakyaBandara",
+            linkedin: "https://www.linkedin.com/in/chanakya-bandara-5a8752175/",
+            dribble: "www.dribble.com",
+            stackoverflow: "www.stackoverflow"
+
+        }]
+    },
+    {
+        teamPicture: Matheesha,
+        teamName: "Matheesha Ileperuma",
+        teamPosition: "Intern Software Engineer",
         socialMedia: [{
             facebook: "www.facebook.com",
             github: "www.github.com",
@@ -360,7 +402,7 @@ export const technologyIcons = [
     },
     {
         icon: techicon10,
-        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30 animate-pulse",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-8 animate-pulse",
     },
     {
         icon: techicon11,
@@ -372,10 +414,26 @@ export const technologyIcons = [
     },
     {
         icon: techicon13,
-        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-2 lg:translate-y-12 animate-pulse",
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-1 lg:translate-y-30 animate-pulse",
     },
     {
         icon: techicon14,
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:-translate-y-8",
+    },
+    {
+        icon: techicon15,
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 rotate-12 lg:translate-x-1 lg:translate-y-12",
+    },
+    {
+        icon: techicon16,
         animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-30",
+    },
+    {
+        icon: techicon17,
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-6 lg:translate-x-2 lg:translate-y-12",
+    },
+    {
+        icon: techicon18,
+        animate: "xs:hidden md:block rounded-full flex items-center justify-center shadow-xl rounded-lg px-6 py-6 lg:my-8 m-auto lg:transform scale-75 -rotate-12 lg:translate-x-1 lg:translate-y-8 animate-pulse",
     }
 ]

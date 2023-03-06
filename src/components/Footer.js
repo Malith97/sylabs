@@ -23,7 +23,7 @@ const Footer = () => {
                                 <a href="https://www.linkedin.com/synnlabz">
                                     <FaLinkedin className="text-xl text-blue-50 inline-block lg:mx-4 md:mx-4 sm:mx-4 xs:mx-4 hover:text-blue-400" />
                                 </a>
-                                <a href="https://https://www.linkedin.com/in/malith-ileperuma-8a6a97167/">
+                                <a href="https://www.linkedin.com/in/malith-ileperuma-8a6a97167/">
                                     <FaDribbble className="text-xl text-blue-50 inline-block lg:mx-4 md:mx-4 sm:mx-4 xs:mx-4 hover:text-pink-600" />
                                 </a>
                             </div>

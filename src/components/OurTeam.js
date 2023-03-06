@@ -10,7 +10,7 @@ const OurTeam = () => {
                 <p className="text-center text-pink-500 font-black">TEAM MEMBERS</p>
                 <h1 className="text-center lg:text-5xl xs:text-3xl font-black lg:mb-5 text-blue-900 lg:px-48 sm:px-8 ">The Brains Behind</h1>
                 <h4 className="text-center lg:text-xl xs:text-md font-light mb-12">We are creative people with big dreams</h4>
-                <div className="grid lg:grid-cols-4 sm:grid-cols-2 lg:gap-4 sm:gap-2 xs:grid-cols-1">
+                <div className="grid lg:grid-cols-5 sm:grid-cols-2 lg:gap-4 sm:gap-2 xs:grid-cols-1">
                     {ourteamDetails.map((val, key) => {
                         return (
                             <div class="wrapper antialiased text-gray-900 xs:m-4">
