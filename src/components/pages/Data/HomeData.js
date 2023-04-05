@@ -104,7 +104,7 @@ export const homeObjFour = {
     isBtn: false,
     isDesc: true,
     topicIcon: <img src={MiniMe} alt="Malith Ileperuma" />,
-    topicHead: 'Malith Ileperuma',
+    topicHead: 'Malith Pabasara',
     topicDesc: 'Co-Founder & CEO',
     buttonLabel: 'Learn More',
     imgStart: '',
@@ -324,7 +324,7 @@ export const ourteamDetails = [
     },
     {
         teamPicture: Malith,
-        teamName: "Malith Ileperuma",
+        teamName: "Malith Pabasara",
         teamPosition: "DevOps Engineer & Full-Stack Developer",
         socialMedia: [{
             facebook: "www.facebook.com",

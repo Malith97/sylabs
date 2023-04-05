@@ -6,14 +6,14 @@ const Footer = () => {
     return (
         <>
             <div className="bg-sylab-blue">
-                <div class="border-t border-solid border-gray-900 mt-4 py-4">
-                    <div class="container px-4 mx-auto">
+                <div className="border-t border-solid border-gray-900 mt-4 py-4">
+                    <div className="container px-4 mx-auto">
 
-                        <div class="md:flex md:-mx-4 md:items-center">
-                            <div class="md:flex-1 md:px-4 text-center md:text-left">
+                        <div className="md:flex md:-mx-4 md:items-center">
+                            <div className="md:flex-1 md:px-4 text-center md:text-left">
                                 <img src={Logo} alt="Sy Labs" className="xs:my-4 md:visible xs:h-8 xs:w-30 xs:hidden md:block" />
                             </div>
-                            <div class="md:flex-1 sm:flex-1 md:px-4 text-center md:text-right xs:mb-4 xs:gap-1">
+                            <div className="md:flex-1 sm:flex-1 md:px-4 text-center md:text-right xs:mb-4 xs:gap-1">
                                 <a href="https://www.facebook.com/synnlabz">
                                     <FaFacebookSquare className="text-xl text-blue-50 inline-block lg:mx-4 md:mx-4 sm:mx-4 xs:mx-4 hover:text-blue-500" />
                                 </a>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import HeroSection from '../../HeroSection'
 import Card from '../../ServiceCard'
 import HowitWorks from '../../HowitWorks'
@@ -8,6 +8,9 @@ import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, servicecards } from 
 
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    }, []);
     return (
         <>
             <HeroSection {...homeObjOne} />

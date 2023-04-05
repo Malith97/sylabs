@@ -13,7 +13,7 @@ const OurTeam = () => {
                 <div className="grid lg:grid-cols-5 sm:grid-cols-2 lg:gap-4 sm:gap-2 xs:grid-cols-1">
                     {ourteamDetails.map((val, key) => {
                         return (
-                            <div class="wrapper antialiased text-gray-900 xs:m-4">
+                            <div className="wrapper antialiased text-gray-900 xs:m-4" key={key}>
                                 <div>
                                     <img src={val.teamPicture} alt=" random imgee" className="lg:w-full sm:w-full object-cover object-center rounded-lg shadow-md" />
                                     <div className="relative lg:px-4 lg:-mt-16 xs:-mt-4 xs:p-1">

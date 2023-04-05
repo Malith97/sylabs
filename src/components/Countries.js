@@ -10,9 +10,9 @@ const Countries = () => {
                 <dl className="grid grid-cols-1 gap-y-16 gap-x-8 text-center lg:grid-cols-4">
                     {countryList.map((val,key) => {
                         return(
-                            <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                                <div class="max-w-sm rounded overflow-hidden shadow-lg m-8">
-                                    <img class="w-full" src={val.flag} alt="Sunset in the mountains"/>
+                            <div className="mx-auto flex max-w-xs flex-col gap-y-4" key={key}>
+                                <div className="max-w-sm rounded overflow-hidden shadow-lg m-8">
+                                    <img className="w-full" src={val.flag} alt="Sunset in the mountains"/>
                                 </div>
                                 <dt className="text-base leading-7 text-gray-600">{val.countryName}</dt>
                             </div>
